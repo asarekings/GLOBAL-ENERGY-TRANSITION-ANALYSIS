@@ -1,0 +1,5 @@
+# Ignore Jupyter checkpoint folders
+.ipynb_checkpoints/
+
+# (Optionally) ignore SQLite DB if it’s ephemeral
+# energy_transition.db

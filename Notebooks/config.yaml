@@ -1,0 +1,35 @@
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  sources:
+    - name: sample_energy
+      url: https://raw.githubusercontent.com/owid/energy-data/master/owid-energy-data.csv
+
+scenarios:
+  - name: baseline
+    carbon_price: 50
+    gdp_growth: 0.03
+    population_growth: 0.01
+    efficiency_improvement: 0.005
+    electrification_rate: 0.02
+
+  - name: high_policy
+    carbon_price: 100
+    gdp_growth: 0.025
+    population_growth: 0.008
+    efficiency_improvement: 0.015
+    electrification_rate: 0.05
+
+  - name: low_policy
+    carbon_price: 20
+    gdp_growth: 0.04
+    population_growth: 0.012
+    efficiency_improvement: 0.002
+    electrification_rate: 0.01
+
+  - name: accelerated_tech
+    carbon_price: 75
+    gdp_growth: 0.03
+    population_growth: 0.009
+    efficiency_improvement: 0.02
+    electrification_rate: 0.06

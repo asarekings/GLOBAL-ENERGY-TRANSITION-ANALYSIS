@@ -1,0 +1,16 @@
+name: energy-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - jupyterlab
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pyyaml
+  - nbconvert
+  - statsmodels
+  - plotly
